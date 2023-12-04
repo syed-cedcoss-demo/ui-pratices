@@ -1,0 +1,42 @@
+.nav-container {
+  display: flex;
+  flex-grow: 1;
+  height: 50px;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0px;
+  justify-content: space-around;
+  /* box-shadow: 7px 7px rgb(238, 233, 233); */
+}
+.nav-list ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-list ul a {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-list ul a:hover {
+  color: #e03a3c;
+}
+
+.nav-logo-text {
+  font-size: larger;
+  font-weight: 700;
+  font-size: 25px;
+  color: #111111;
+}
+.nav-logo-text span {
+  color: #e03a3c;
+}
+
+.nav-btn {
+  background-color: #e03a3c;
+  color: #ffff;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  border-color: #e03a3c;
+}

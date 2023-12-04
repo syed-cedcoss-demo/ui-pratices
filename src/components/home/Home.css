@@ -1,0 +1,16 @@
+.hero-container {
+  background: url("../../assets/img/hero-bg.jpg") top center no-repeat;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+}
+.hero-title {
+  position: absolute;
+  font-size: 55px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 40px;
+  left: 40px;
+}
