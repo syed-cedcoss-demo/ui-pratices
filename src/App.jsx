@@ -1,14 +1,13 @@
-import "./App.css";
 import Home from "./components/home/Home";
+import Slider from "./components/home/Slider";
 import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Home />
-      </Layout>
-    </div>
+    <Layout>
+      <Home />
+      <Slider />
+    </Layout>
   );
 }
 
